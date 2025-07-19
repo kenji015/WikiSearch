@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wikipedia-Suche mit Vorschau</title>
+  <link rel="stylesheet" href="static/style.css">
+  <link rel="script" href="script.js">
+</head>
+<body>
+  <div class="search-container">
+    <h1>Wikipedia-Suche</h1>
+    <input type="text" id="searchInput" placeholder="Wikipedia-Artikel suchen..." />
+    <button onclick="searchWikipedia()">Suchen</button>
+
+    <div class="results" id="results"></div>
+
+    <iframe id="articleViewer" src="" style="display: none;"></iframe>
+  </div>
+  <p class="copy">&copy 2025 Maximilian Mahrhofer</p>
+</body>
+</html>
