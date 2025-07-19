@@ -2,8 +2,8 @@ async function searchWikipedia() {
       const query = document.getElementById('searchInput').value;
       const resultsContainer = document.getElementById('results');
       const iframe = document.getElementById('articleViewer');
-      iframe.style.display = 'none'; // Artikelanzeige ausblenden
-      resultsContainer.innerHTML = ''; // Ergebnisse leeren
+      iframe.style.display = 'none'; // Article-View disable
+      resultsContainer.innerHTML = ''; // Clear result
 
       if (!query.trim()) return;
 
