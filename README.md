@@ -1,3 +1,4 @@
 # kenji015.github.io/WikiSearch/
 ## WikiSearch
-A Site to search and View Wikipedia Article thru the WikiAPI
+
+This repository contains a website that accesses published articles on Wikipedia via the WikiAPI and displays them in an integrated browser iFrame
